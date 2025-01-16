@@ -1,0 +1,38 @@
+
+.headerContainer{
+    background: linear-gradient(#490D74, #7B1170);
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 65%;
+    background-color: #fff;
+    border-radius: 47px;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.headerTitle{
+    font-size: 32px;
+    color: #EA3FA4;
+    line-height: 38px;
+    font-weight: 900; 
+}
+.marsobotImg{
+    width: 235px;
+    height: 213px;
+}
+.headerImg{
+    width: 30%;
+}

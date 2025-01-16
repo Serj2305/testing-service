@@ -1,0 +1,14 @@
+.algoritmikaLogo{
+    width: 240px;
+    height: 52px;
+}
+.logoContainer{
+    display: flex;
+    gap: 20px;
+}
+.logoText{
+    font-size: 18px;
+    line-height: 22px;
+    width: 50%;
+    color: #fff
+}

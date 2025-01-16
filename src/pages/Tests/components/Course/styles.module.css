@@ -1,0 +1,33 @@
+.container{
+    padding: 2px 20px 15px;
+    background-color: #EA3FA4;
+    align-items: stretch;
+    border-radius: 40px;
+    width: 45%;
+    min-height: 250px;
+    max-height: 300px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+  transform: scale(0.95); 
+}
+
+.age, .countQuestions, .name{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #fff
+}
+.countQuestions, .name{
+    margin-top: 16px;
+}
+.age{
+    margin-top: 60px;
+}
+.img{
+    height: 80%;
+    position: absolute;
+    right: -30px;
+    top: -35px;
+}

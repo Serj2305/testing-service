@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    margin-top: 40px;
+    column-gap: 16px;
+}
+
+.numberContainer{
+    padding: 5px 15px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #602B7A;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}

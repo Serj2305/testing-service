@@ -1,0 +1,20 @@
+.container{
+    max-width: 280px;
+}
+.img{
+    height: 45%;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #602B7A;
+}
+.text{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #602B7A;
+}
