@@ -1,0 +1,30 @@
+
+.answersContainer{
+    width: 100%;
+}
+
+
+.answer{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #602B7A;
+    border-radius: 45px;
+    border: 2px solid #C898E0;
+    padding: 10px 20px;
+    margin-top: 16px;
+    transition: transform 0.1s ease;
+}
+
+.answer:hover{
+    border-color: rgb(209, 63, 209);
+    cursor: pointer;
+}
+
+.answer:active{
+    transform: scale(0.98);
+}
+
+.active{
+    background-color: #C898E0;
+}

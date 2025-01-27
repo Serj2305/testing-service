@@ -15,47 +15,68 @@
   position: relative;
 }
 
-.img {
-  height: 132px;
-  width: 166px;
+.img1 {
+  height: 120px;
   position: absolute;
   left: 20px;
   top: -20px;
-
+}
+.img2{
+    height: 160px;
+    position: absolute;
+    right: 20px;
+    top: -50px;
 }
 
 .questionText {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 800;
-  line-height: 34px;
+  line-height: 58px;
   color: #602B7A;
-  margin-left: 166px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   min-height: 80px;
 }
 
-.contentContainer {
-  margin-top: 16px;
-  padding: 0 40px;
-  display: flex;
-  column-gap: 16px;
+.contentContainer{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.title{
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 41px;
+  text-align: center;
+  color: #602B7A
+}
+
+.description, .recommendation{
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 31px;
+  color: #602B7A;
+  margin-top: 30px;
 }
 
 
 
 .buttonContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px 30px 30px
 }
 
-
-.buttonAnswer,
-.buttonBack,
-.buttonResult {
+.button {
   all: unset;
   font-size: 32px;
   font-weight: 800;
@@ -68,19 +89,10 @@
   transition: opacity 0.3s ease, transform 0.1s ease;
 }
 
-.buttonAnswer:hover,
-.buttonBack:hover,
-.buttonResult:hover {
+.button:hover {
   opacity: 0.8;
 }
 
-.buttonAnswer:active,
-.buttonBack:active,
-.buttonResult:active {
+.button:active {
   transform: scale(0.98);
-}
-
-.buttonAnswer,
-.buttonResult {
-  margin-left: auto;
 }

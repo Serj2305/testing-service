@@ -2,6 +2,7 @@ import styles from './styles.module.css'
 import { Course } from '../Course/course'
 import mookImg1 from '../../../../assets/mook-img1.png'
 import mookImg2 from '../../../../assets/mook-img2.png'
+import { v4 as uuid} from 'uuid';
 
 export const Courses = () => {
   const backgroundColors = ['#EA3FA4', '#CBF86D', '#FF5A50', '#00AF85', '#82F7FF', '#FFB0CD']
@@ -60,7 +61,7 @@ export const Courses = () => {
         какой уровень обучения будет максимально интересным и полезным для вашего ребёнка.
       </p>
       <div className={styles.coursesContainer}>
-        {courses.map((item, index) => <Course {...item} color={backgroundColors[index % backgroundColors.length]}/>)}
+        {courses.map((item, index) => <Course {...item} color={backgroundColors[index % backgroundColors.length]} key={uuid()}/>)}
       </div>
     </div>
   )

@@ -37,7 +37,7 @@ export const testSlice = createSlice({
         saveAnswers(state, action) {
             const questions = [...state.test];
             const currentQuestion = questions.findIndex(question => question.id === action.payload.id);
-            questions[currentQuestion].answers = action.payload.answers;
+            questions[currentQuestion].userAnswers = action.payload.answers;
             state.test = questions;
         }
     }

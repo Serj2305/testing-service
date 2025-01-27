@@ -1,5 +1,6 @@
 import { FAQItem } from '../FAQItem/faqItem'
 import styles from './styles.module.css'
+import { v4 as uuid} from 'uuid';
 
 export const FAQ = () => {
   const items = [
@@ -32,7 +33,7 @@ export const FAQ = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Найдите ответ на свой вопрос</h2>
-      <div className={styles.FAQContainer}>{items.map((item) => <FAQItem {...item}/>)}</div>
+      <div className={styles.FAQContainer}>{items.map((item) => <FAQItem {...item} key={uuid()}/>)}</div>
     </div>
   )
 }

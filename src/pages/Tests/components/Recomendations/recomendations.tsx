@@ -4,6 +4,7 @@ import recImg2 from '../../../../assets/rec-image-2.png'
 import recImg3 from '../../../../assets/rec-image-3.png'
 import recImg4 from '../../../../assets/rec-image-4.png'
 import { Recomendation } from '../Recomendation/recomendation'
+import { v4 as uuid} from 'uuid';
 
 export const Recomendations = () => {
 
@@ -32,7 +33,7 @@ export const Recomendations = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>Рекомендации по прохождению тестов</h2>
       <div className={styles.containerRecomedations}>
-        {recomendations.map((item) => <Recomendation {...item}/>)}
+        {recomendations.map((item) => <Recomendation {...item} key={uuid()}/>)}
       </div>
     </div>
   )

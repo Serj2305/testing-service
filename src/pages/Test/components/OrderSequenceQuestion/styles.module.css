@@ -1,0 +1,42 @@
+
+.answersContainer{
+    width: 100%;
+    background-color: #C898E0;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.content{
+    height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    overflow-x: hidden;
+}
+
+
+.content {
+    /* Для Firefox */
+    scrollbar-color: #D9D9D9 #f0f0f000;
+    scrollbar-width: 16px;
+
+  }
+  
+  /* Для Webkit (Chrome, Edge, Safari) */
+  .content::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  .content::-webkit-scrollbar-track {
+    background: #f0f0f000;
+    border-radius: 10px;
+  }
+  
+  .content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .content::-webkit-scrollbar-thumb:hover {
+    background: #D9D9D9;
+  }

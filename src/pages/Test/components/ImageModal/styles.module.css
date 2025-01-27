@@ -1,0 +1,40 @@
+.img {
+  width: 20%;
+  transition: transform 0.2s;
+}
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.modalContent{
+  background: #fff;
+  border-radius: 45px;
+  padding: 20px;
+  min-width: 70%;
+  min-height: 80%;
+  max-width: 80%;
+  max-height: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.modalImage{
+  width: 80%;
+}
+
+.closeImage{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: transform 0.2s;
+}
+.closeImage:hover{
+  cursor: pointer;
+}
+.closeImage:active{
+  transform: scale(1.1);
+}

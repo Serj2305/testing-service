@@ -1,14 +1,9 @@
-
-.answersContainer{
-    width: 100%;
-}
-
-
 .answer{
     font-size: 32px;
     font-weight: 800;
     line-height: 38px;
     color: #602B7A;
+    background-color: #fff;
     border-radius: 45px;
     border: 2px solid #C898E0;
     padding: 10px 20px;
@@ -17,14 +12,10 @@
 }
 
 .answer:hover{
-    border-color: rgb(209, 63, 209);
-    cursor: pointer;
+    cursor: grab;
 }
 
 .answer:active{
     transform: scale(0.98);
-}
-
-.active{
-    background-color: #C898E0;
+    cursor: grabbing;
 }
